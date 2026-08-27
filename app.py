@@ -6,7 +6,7 @@ import requests
 # ---------------------------------------------------------
 # 1. CONFIGURATION & COORDINATES (Los Angeles Demo Corridor)
 # ---------------------------------------------------------
-FORTYGUARD_API_KEY = "566026503fd3716775ff0e3f6cfef0d9"
+FORTYGUARD_API_KEY = os.getenv("FORTYGUARD_API_KEY", "")
 
 # Start: Downtown LA | Destination: Beverly Hills Park Area
 START_POINT = (34.0407, -118.2468)
