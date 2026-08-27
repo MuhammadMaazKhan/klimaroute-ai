@@ -9,7 +9,7 @@ st.set_page_config(page_title="KlimaRoute AI", layout="wide", page_icon="🌱")
 # ---------------------------------------------------------
 # 1. LIVE METEOROLOGICAL & FORTYGUARD INGESTION ENGINE
 # ---------------------------------------------------------
-FORTYGUARD_API_KEY = os.getenv("FORTYGUARD_API_KEY", "566026503fd3716775ff0e3f6cfef0d9")
+FORTYGUARD_API_KEY = os.getenv("FORTYGUARD_API_KEY", "")
 FORTYGUARD_BASE_URL = "https://api.fortyguard.com"
 
 def get_realtime_ambient_temperature(lat, lon):
